@@ -6,6 +6,8 @@ A Docker image for MLFlow with Postgres dependencies installed
 
 The current official Docker image for MLFlow does not include the Postgres dependencies at this current time. Errors when running say that `psycopg2` is not installed. This image is a simple copy of the official image with the extra dependency installed.
 
+This also includes the dependencies required for Azure Blob Storage `azure-storage-blob`.
+
 There look to be official images coming soon.
 
 ## Local build
