@@ -1,3 +1,3 @@
-FROM ghcr.io/mlflow/mlflow:v2.10.0
+FROM ghcr.io/mlflow/mlflow:latest
 RUN pip install --no-cache psycopg2-binary azure-storage-blob
 
